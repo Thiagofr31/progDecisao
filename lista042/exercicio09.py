@@ -5,7 +5,7 @@ idade, se é maior de idade, ou se é maior de 65 anos
 
 idade = int(input("Qual sua idade? "))
 
-if idade>=18:
+if idade>=18 and idade<65:
     print("Você é maior de idade")
 if idade<18:
     print("Você é menor de idade")
